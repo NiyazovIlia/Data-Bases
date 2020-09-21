@@ -1,0 +1,16 @@
+1) Установил Mysql)
+2) Создал базу данных при помощи команд
+create database example;
+use example
+
+create table users
+(
+	Id INT,
+	Name VARCHAR(50)
+);
+
+3) Создал базу данных при помощи команды
+create database sample;
+
+Сделал дамп при помощи команды: mysqldump -uroot -p example > damp.sql
+Вернул дамб при помощи команды: mysqldump -uroot -p sample < damp.sql
